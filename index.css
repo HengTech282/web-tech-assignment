@@ -1,0 +1,142 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+header {
+    position: relative;
+    min-height: 500px;
+}
+
+.title {
+    position: absolute;
+    top: 50px;
+    left: 90px;
+    margin: 0;
+    font-size: 80px;
+    font-weight: bold;
+    color: #FF6F00;
+}
+
+.slogan {
+    position: absolute;
+    top: 140px;
+    left: 100px;
+    font-weight: bold;
+    font-size: 28px;
+    margin: 0;
+    color: #E65C00;
+}
+
+#borderLine1 {
+    position: absolute;
+    top: 0px;
+    left: 35px;
+    width: 10px;
+    height: 100vh;
+    background-color: #FF6F00;
+}
+
+#borderLine2 {
+    position: absolute;
+    top: 0px;
+    left: 30px;
+    width: 5px;
+    height: 100vh;
+    /*background-color: black;*/
+}
+
+
+.description {
+    position: absolute;
+    top: 360px;
+    left: 100px;
+    text-align: left;
+    font-size: 22px;
+    font-weight: bold;
+    max-width: 650px;
+    margin: 0;
+    line-height: 1.3;
+}
+
+.logo {
+    position: absolute;
+    top: 160px;
+    right: 140px;
+    width: 500px;
+}
+
+nav {
+    position: absolute;
+    top: 85px;
+    right: 100px;
+    z-index: 1000;
+}
+
+nav a {
+    color: black;
+    text-decoration: underline;
+    margin-left: 15px;
+    margin-right: 15px;
+    font-weight: bold;
+    font-size: 21px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    right: 20px;
+    padding: 20px
+    
+}
+
+.footer-table {
+    display: inline-table;
+    border-collapse: collapse;
+}
+
+.footer-table td {
+    padding: 5px;
+}
+
+.footer-table a {
+    color: black;
+    text-decoration: underline;
+    margin-left: 15px;
+    margin-right: 15px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.search-box {
+    position: fixed;
+    bottom: 20px;
+    left: 90px;
+}
+
+.search-box input {
+    padding: 8px;
+    font-size: 14px;
+}
+
+.search-box button {
+    padding: 8px 12px;
+    font-size: 14px;
+    background-color: #FF6F00;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.search-box button:hover {
+    background-color: #E65C00;
+}
